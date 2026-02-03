@@ -1,0 +1,90 @@
+label{
+    display: inline-block;
+    width: 300px;
+    font-weight: bold;
+}
+
+label[for="nam"],
+label[for="nu"],
+label[for="xxx"],
+label[for="yyy"] {
+    width: auto;
+    margin-right: 20px;
+}
+
+strong {
+    display: block;
+    width: 300px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.half {
+    display: flex;
+}
+
+/* Captcha (fake UI) */
+.captcha-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.captcha-row label {
+    display: inline-block;
+    width: 300px;
+    font-weight: bold;
+}
+
+.captcha-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.captcha-image {
+    min-width: 420px;
+    height: 36px;
+    padding: 6px 10px;
+    border: 1px solid #999;
+    background: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    letter-spacing: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.captcha-reload {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#captchaInput {
+    width: 420px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+}
+
+/* Align only the bottom button group: push Submit to the right */
+.end {
+    display: flex;
+    margin-top: 12px;
+}
+
+.end button {
+    padding: 8px 12px;
+}
+
+.end button[type="next"] {
+    margin-right: auto;
+}
+
